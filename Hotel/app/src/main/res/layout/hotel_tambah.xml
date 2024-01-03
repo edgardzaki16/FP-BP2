@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Hotel_tambah">
+
+    <ImageView
+        android:layout_width="445dp"
+        android:layout_height="741dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="-16dp"
+        android:src="@drawable/background_hotel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Hotel"
+        android:fontFamily="@font/poppins_extra_bold"
+        android:textSize="30dp"
+        android:layout_marginTop="-750dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Nama Hotel"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:id="@+id/edt_nama"
+        android:hint="Masukan Nama"
+        android:background="@drawable/background_input_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Alamat Hotel"
+        android:textSize="20dp"></TextView>
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:id="@+id/edt_alamat"
+        android:hint="Masukan alamat"
+        android:background="@drawable/background_input_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"></EditText>
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Pilih Foto"></TextView>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/icon_upload"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/iv_upload"></ImageView>
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Simpan"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:backgroundTint="@color/orange_tua"
+        android:id="@+id/btn_simpan"></Button>
+
+</LinearLayout>

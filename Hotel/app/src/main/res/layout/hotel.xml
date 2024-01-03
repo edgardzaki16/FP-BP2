@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hotel">
+
+
+    <ImageView
+        android:layout_width="445dp"
+        android:layout_height="741dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="-16dp"
+        android:src="@drawable/background_hotel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="-750dp"
+        android:layout_marginBottom="15dp"
+        android:text="Menu Dashboard"
+        android:fontFamily="@font/poppins_extra_bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Tambah Hotel"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange_tua"
+        android:id="@+id/btn_tambah"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        tools:itemCount="5"
+        tools:listitem="@layout/hotel_item" />
+</LinearLayout>

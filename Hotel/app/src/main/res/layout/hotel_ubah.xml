@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Hotel_ubah"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="741dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/background_hotel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah Hotel"
+        android:fontFamily="@font/poppins_extra_bold"
+        android:textSize="30dp"
+        android:layout_marginTop="-750dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Nama Hotel"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:id="@+id/edt_nama"
+        android:background="@drawable/background_input_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Alamat Hotel"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:id="@+id/edt_alamat"
+        android:background="@drawable/background_input_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"/>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Simpan"
+        android:backgroundTint="@color/orange_tua"
+        android:id="@+id/btn_simpan"/>
+
+</LinearLayout>
